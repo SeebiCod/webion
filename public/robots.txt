@@ -1,0 +1,30 @@
+User-agent: *
+Allow: /
+
+# Block auth and member pages from being indexed
+Disallow: /auth
+Disallow: /member
+
+Sitemap: https://www.webion-studio.co.uk/sitemap.xml
+
+# Allow major AI crawlers explicitly
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Amazonbot
+Allow: /

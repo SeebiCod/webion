@@ -1,8 +1,18 @@
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet-async";
 
 export const LandingPage: React.FC = () => {
   return (
     <>
+      <Helmet>
+        <title>Webion Studio | Web Design & Development Agency UK</title>
+        <meta name="description" content="Webion Studio builds clean, fast, conversion-focused websites for UK small businesses, consultants, and coaches. Book a free consultation today." />
+        <link rel="canonical" href="https://www.webion-studio.co.uk/" />
+        <meta property="og:title" content="Webion Studio | Web Design & Development Agency UK" />
+        <meta property="og:description" content="Webion Studio builds clean, fast, conversion-focused websites for UK small businesses, consultants, and coaches." />
+        <meta property="og:url" content="https://www.webion-studio.co.uk/" />
+        <meta property="og:type" content="website" />
+      </Helmet>
       <section className="hero">
         <div className="container hero-inner">
           <div className="hero-copy">
